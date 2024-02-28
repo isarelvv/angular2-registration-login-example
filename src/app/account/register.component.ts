@@ -43,6 +43,7 @@ export class RegisterComponent implements OnInit {
         }
 
         this.loading = true;
+        /*
         this.accountService.register(this.form.value)
             .pipe(first())
             .subscribe({
@@ -54,6 +55,6 @@ export class RegisterComponent implements OnInit {
                     this.alertService.error(error);
                     this.loading = false;
                 }
-            });
+            });*/
     }
 }
